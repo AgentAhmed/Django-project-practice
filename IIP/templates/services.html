@@ -1,0 +1,90 @@
+    {% extends "base.html" %}
+    {% block content %}
+    
+       
+    <div id="tooplate_main">
+
+        <div class="content_box">
+            <div class="col_w460">
+                
+                <h2>Service Overviews</h2>
+                <p><em>Morbi commodo convallis mi in vulputate. Integer et ante non velit posuere rhoncus rutrum nec augue. Maecenas sodales bibendum eleifend. Aliquam et augue sem. Validate <a href="http://validator.w3.org/check?uri=referer" rel="nofollow"><strong>XHTML</strong></a> and <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow"><strong>CSS</strong></a>.</em></p>
+                <div class="image_wrapper image_fl"><img src="/static/images/tooplate_image_02.jpg" alt="Image 02" /></div>
+                <p>Aliquam nec felis tellus. Nulla ut nibh elit, ut fermentum mi. Aliquam adipiscing, nunc vel euismod viverra, metus risus ullamcorper diam, tempus consectetur diam metus ultricies nulla. Nullam fermentum risus vitae lectus posuere. Nunc ut tempus sem.</p>
+                <div class="btn_more"><a href="#">Read more</a></div>
+            
+            </div>
+            <div class="col_w460 last_col">
+                <form method="get">
+                    <input type="text" name="servicename" value="">
+                    <input type="submit" value="Search">
+                    
+                </form>
+
+                <br>
+                <br>
+                {% for n in serviceData  %}
+                <!-- <h2>Service Lists</h2> -->
+                <!-- <h2>{{n.service_icon}}</h2> -->
+                <h2>{{n.service_title}}</h2>
+                <!-- {{n.service_des |upper| safe}} -->
+                {{n.service_des}} <!--this will give only first letter in upper case, check documents django to apply other filters-->
+                <ul class="tmo_list">
+                    <!-- <li>Praesent faucibus, dui vitae condimentum augue ornare elit</li>
+                    <li>Aliquam luctus posuere velit, sit amet vestibulum odio feugiat eu</li>
+                    <li>Suspendisse dolor dui, pretium quis sagittis convallis</li>
+                    <li>Fusce euismod mattis mauris, ac consequat leo pellentesque non</li> 
+                    <li>Nullam turpis est, interdum sed viverra nec, consequat at </li>
+                    <li>Donec eu orci nec sem fringilla laoreet eu egestas diam</li>--> 
+                    
+                </ul>
+                <div class="btn_more"><a href="#">Read more</a></div>
+                
+                {% endfor %}
+            </div>
+            <div class="pagination">
+                <a href="#">&laquo;</a>
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">6</a>
+                <a href="#">&raquo;</a>
+              </div>
+            <div class="cleaner"></div>
+        </div>
+         
+        <!-- <div class="content_box content_box_last">
+            <div class="col_w460">
+    
+                <h2>New Service</h2>
+                <div class="image_wrapper image_fl"><img src="/static/images/tooplate_image_03.jpg" alt="Image 03" /></div>
+                <p>Ut quis massa mauris. Aliquam mattis ornare nunc condimentum sagittis. Integer fermentum arcu vitae sem condimentum vel posuere massa facilisis. Aenean vel turpis sem, sed mattis dui. Nunc suscipit nulla sit amet libero sollicitudin et hendrerit leo tempus.</p>
+                <div class="btn_more"><a href="#">Read more</a></div>
+            
+            </div>
+            <div class="col_w460 last_col">
+                <h2>Testimonials</h2>
+                        
+                <blockquote>
+                    <p>Nullam fermentum risus vitae lectus posuere sagittis. Praesent faucibus, dui vitae dolor augue ornare elit, quis congue ante lacus id dui. Sit amet vestibulum odio feugiat eu.</p>
+                    <cite>Smith - <span>Web Designer</span></cite>
+                </blockquote>
+                
+                <div class="cleaner_h20"></div>
+                
+                <blockquote>
+                    <p>Phasellus quis nunc sed nunc lobortis elementum. Aliquam viverra consectetur purus, porta laoreet ante porttitor a. In a tellus leo, sit amet consequat felis. </p>
+                    <cite>Brown - <span>Web Developer</span></cite>
+                </blockquote>
+            </div>
+        </div>	
+	  
+            
+        <div class="cleaner"></div>
+    </div>
+     -->
+
+    
+    {% endblock %}  

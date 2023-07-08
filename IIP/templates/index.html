@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <title>{{title}}</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            .main{
+                width: 1000px;
+                background-color:green;
+                text-align: center;
+                padding: 20px;
+                font-size: 30px;
+                margin-left: 10%;
+                margin-top: 3%;
+                border-radius: 10px;
+           }
+        </style>
+    </head>
+    <body style="background-color: skyblue;">
+          {% for n in clist %}
+          <div>{{forloop.first}}  {{n}}</div>
+          {% endfor%}
+
+          <table border="1" cellpadding="10">
+                <tr>
+                    <th>Name</th>
+                    <th>Phone Number</th>
+                    <th>Country</th>
+                </tr>
+
+                {%for d in student_details %} 
+                <tr>
+                    <td>{{d.name}}</td>
+                    <td>{{d.phone}}</td>
+                    <td>{{d.country}}</td>
+                </tr>
+                {% endfor %} 
+          </table>
+
+            {% for n in numb %}
+           
+            {% if n > 20 %}
+            <div>{{n}}</div>
+            {% endif %}
+            {% endfor %}
+         {% if roll|length > 0 %}
+            
+         {% for s in roll %}
+
+            <div>{{s}}</div>
+
+            {% endfor %}
+          {% else %}
+               No data found
+          {% endif %}           
+         <!-- <div class="main"> {{bdata}} {{clist}} </div>  -->
+        <script src="" async defer></script>
+    </body>
+</html>

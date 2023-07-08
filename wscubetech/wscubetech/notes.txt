@@ -1,0 +1,4 @@
+routes can be formed in the basis of:->
+int
+str
+slug     hello-ws-iip (words with dash between them)

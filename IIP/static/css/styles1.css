@@ -1,0 +1,98 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:#FFF; color:#9c9c9c; font:11px/14px Tahoma, sans-serif;}
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+#main_body {margin:0 auto;  background:url(../images/back.jpg) repeat-x;}
+#content{width:756px; margin:0 auto;  background:url(../images/main_back.jpg) top no-repeat;}
+#clear {clear: both; margin: 0px}
+
+/* HEADER */
+
+#header{height:345px; width:756px; position:relative; margin:0; padding:0;}
+
+#header ul.logo li a{background:url(../images/logo.jpg) no-repeat; width:259px; height:53px; position:absolute; top:30px; left:181px; margin:0; text-indent:-20000px; display:block}
+
+#header ul.call li {background:url(../images/call.jpg) no-repeat; width:189px; height:49px; position:absolute; top:30px; left:501px; margin:0; text-indent:-20000px; display:block}
+
+#header ul.menu {width:480px; height:22px; position:absolute; top:141px; left:212px;}
+#header ul.menu li{float:left}
+
+#header ul.menu li.home{width:105px; height:22px; margin-right:25px}
+#header ul.menu li.home a{width:105px; height:22px; display:block; background:url(../images/btn_home.jpg) 0 0 no-repeat; text-indent:-20000px;}
+#header ul.menu li.home a:hover{width:105px; height:22px; background:url(../images/btn_home_over.jpg) 0 0 no-repeat;}
+
+#header ul.menu li.about{width:98px; height:22px; margin-right:29px}
+#header ul.menu li.about a{width:98px; height:22px; display:block; background:url(../images/btn_about.jpg) 0 0 no-repeat; text-indent:-20000px;}
+#header ul.menu li.about a:hover{width:98px; height:22px; background:url(../images/btn_about_over.jpg) 0 0 no-repeat;}
+
+#header ul.menu li.services{width:94px; height:22px; margin-right:29px}
+#header ul.menu li.services a{width:94px; height:22px; display:block; background:url(../images/btn_services.jpg) 0 0 no-repeat; text-indent:-20000px;}
+#header ul.menu li.services a:hover{width:94px; height:22px; background:url(../images/btn_services_over.jpg) 0 0 no-repeat;}
+
+#header ul.menu li.contacts{width:100px; height:22px;}
+#header ul.menu li.contacts a{width:100px; height:22px; display:block; background:url(../images/btn_contacts.jpg) 0 0 no-repeat; text-indent:-20000px;}
+#header ul.menu li.contacts a:hover{width:100px; height:22px; background:url(../images/btn_contacts_over.jpg) 0 0 no-repeat;}
+
+#header ul.choose li a{background:url(../images/choose.jpg) no-repeat; width:390px; height:31px; position:absolute; top:308px; left:306px; margin:0; text-indent:-20000px; display:block}
+
+#header #welcome {width:389px; position:absolute; top:202px; left:306px;}
+#header #welcome h2{width:389px; height:31px; background:url(../images/h_welcome.jpg) 0 0 no-repeat; text-indent:-20000px; padding-bottom:10px}
+#header #welcome p{width:385px; margin:0 0 0 4px; padding-bottom: 10px;  font:11px/14px Tahoma, sans-serif; color:#061e40; float:left;}
+#header #welcome a{font:11px/14px Tahoma, sans-serif; font-weight:normal; color:#FFF; text-decoration:none;}
+#header #welcome a:hover{color:#061e40; text-decoration:underline;}
+
+/* CONTENT */
+
+#contentsection{width:756px; position:relative; margin:0; padding:0; clear:both;}
+#contentsection a{color:#2eabe5; text-decoration:none;}
+#contentsection a:hover{color:#0f3372; text-decoration:underline;}
+
+#leftPan{width:201px; position:relative; margin:137px 0 0 28px; padding:0 13px 20px 0; float: left; border-right:#e4e4e4 1px solid}
+
+#leftPan h2{width:152px; height:32px; background:url(../images/h_solutions.jpg) 0 0 no-repeat; text-indent:-20000px; padding-bottom:17px}
+#leftPan p{width:199px; margin:0 0 0 2px; padding-bottom: 15px; float:left; color:#9c9c9c;}
+#leftPan p span {color:#0f3372; font-weight:bold;}
+
+#leftPan ul {width:199px; margin:0 0 0 2px; float:left}
+#leftPan ul li a{display:block; width:178px; height:16px; background:url(../images/arrow.jpg) 0 8px no-repeat; font:11px/16px Tahoma, Arial, Helvetica, sans-serif; color:#df6f00; font-weight:normal; text-decoration:none; padding:0 0 0 19px;}
+#leftPan ul li a:hover{color:#0f3372; border-right:#000 2px solid;} 
+
+#middlePan{width:222px; position:relative; margin:26px 0 0 15px; padding:0 11px 20px 0; float: left; border-right:#e4e4e4 1px solid}
+
+#middlePan #services{width:222px; position:relative; float:left}
+#middlePan #services h2{width:222px; height:37px; background:url(../images/h_services.jpg) 0 0 no-repeat; text-indent:-20000px; margin-bottom:12px; border-bottom:#e4e4e4 1px solid}
+#middlePan #services p.with_img{width:102px; background:url(../images/img_services.jpg) 9px 0 no-repeat; font:10px/12px Tahoma, Arial, Helvetica, sans-serif; color:#9c9c9c; font-weight:normal; padding:2px 0 0 120px; min-height:70px; float:left; border:none }
+#middlePan #services p{width:214px; font:11px/14px Tahoma, Arial, Helvetica, sans-serif; color:#9c9c9c; font-weight:normal; padding:10px 0 10px 10px; float:left;}
+#middlePan #services span { color:#0f3372; font-weight:bold; }
+
+#middlePan #money{width:222px; position:relative;  float:left; border-top:#e4e4e4 1px solid }
+#middlePan #money h2{width:109px; height:21px; background:url(../images/h_money.jpg) 0 0 no-repeat; text-indent:-20000px; margin:9px 0 5px 97px;}
+#middlePan #money img{width:75px; height:112px; position:absolute; top:2px; left:0px; margin:0;}
+#middlePan #money ul {width:138px; margin:0 0 0 83px; float:left}
+#middlePan #money ul li a{display:block; width:120px; height:16px; background:url(../images/arrow.jpg) 0 8px no-repeat; font:11px/16px Tahoma, Arial, Helvetica, sans-serif; color:#84ac16; font-weight:normal; text-decoration:none; padding:0 0 0 18px;}
+#middlePan #money ul li a:hover{color:#0f3372;} 
+
+#rightPan{width:242px; position:relative; margin:26px 10px 0 10px; padding:0; float: left;}
+
+#rightPan #news{width:242px; position:relative}
+#rightPan #news h2{width:242px; height:37px; background:url(../images/h_news.jpg) 0 0 no-repeat; text-indent:-20000px;   margin-bottom:12px; border-bottom:#e4e4e4 1px solid}
+
+#rightPan #news ul{width:230px; margin:0 0 0 12px; float:left }
+#rightPan #news ul li.dot{background:url(../images/bullet.jpg) 0 3px no-repeat; height:14px; padding:0 0 0 25px; font:11px/14px Tahoma, Arial, Helvetica, sans-serif; color:#0f3372; font-weight:bold;}
+#rightPan #news ul li{background:none; padding:0 0 15px 25px;}
+
+#rightPan #time{width:242px; position:relative;  float:left;  border-top:#e4e4e4 1px solid }
+#rightPan #time h2{width:92px; height:21px; background:url(../images/h_time.jpg) 0 0 no-repeat; text-indent:-20000px; margin:9px 0 5px 116px;}
+#rightPan #time img{width:90px; height:112px; position:absolute; top:2px; left:4px; margin:0;}
+#rightPan #time ul {width:142px; margin:0 0 0 100px; float:left}
+#rightPan #time ul li a{display:block; width:120px; height:16px; background:url(../images/arrow.jpg) 0 8px no-repeat; font:11px/16px Tahoma, Arial, Helvetica, sans-serif; color:#84ac16; font-weight:normal; text-decoration:none; padding:0 0 0 18px;}
+#rightPan #time ul li a:hover{color:#0f3372;} 
+
+
+/* FOOTER */
+
+#footer{height:100px; width:756px; position:relative; margin:0; padding:0; background:url(../images/b_footer.jpg) 0 0 no-repeat;}
+#footer p{display:block; margin: 25px auto 0 auto; font:10px/14px Tahoma, Arial, Helvetica, sans-serif; color:#FFF; font-weight:normal; text-align:center;}
+#footer a{font:10px/20px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; color:#FFF; text-decoration:none; padding: 0 5px}
+#footer a:hover{color:#000; text-decoration:none; background:#FFF;}

@@ -1,0 +1,28 @@
+{% include "header.html" %}
+
+
+
+<div id="tooplate_main">
+    
+    <div class="col_w900 hr_divider">
+            
+            
+        <div class="col_w420 lp_box float_l">
+            <h2>{{newsDetails.news_title | safe}}</h2>
+            <h5>{{newsDetails.news_des | safe}}</h5>
+            <img class="image_wrapper image_fl" src="/static/images/tooplate_image_02.jpg" alt="Image 02" />
+            <p><em>Morbi lobortis feugiat urna, ut convallis augue pellentesque et. Integer ultricies suscipit lorem a fringilla.</em></p>
+          	<p>Nunc euismod lectus eu neque ultrices laoreet. Aenean et velit tincidunt ante porttitor facilisis. Quisque in turpis vitae enim blandit vehicula. Nullam a tortor est, congue fermentum nisi. Maecenas nulla nulla, lobortis eu volutpat euismod, scelerisque ut dui. Integer luctus tellus ac mi malesuada dignissim. Sed id diam dui. In ut nunc urna. <a href="/static/#">Cum sociis natoque</a> penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin aliquam tortor sed diam tristique vulputate.</p>
+          	<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce posuere blandit aliquet. Sed magna eros, rutrum vel ullamcorper hendrerit, mollis non augue. In at aliquam velit, vel rhoncus tortor. Vestibulum in quam accumsan, fringilla purus vel, facilisis felis. Aenean quis arcu pharetra, condimentum arcu ultricies, gravida justo.</p>
+          	<p>Maecenas et molestie orci. Etiam eu tempor tellus. Praesent vitae dui ut turpis lobortis placerat et sit amet ipsum. Duis egestas,<a href="/static/#"> orci at accumsan</a> viverra, purus magna tempus sapien, in molestie enim tortor vel eros. Aliquam hendrerit dignissim dolor, at vestibulum neque cursus vel.</p>
+      </div>
+        
+       
+        <div class="cleaner"></div>
+              
+		     <img src="/media/{{newsDetails.news_image}}" class="img-fluid">
+              
+    </div>
+</div>
+
+ {% include "footer.html" %}

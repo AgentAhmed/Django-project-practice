@@ -1,0 +1,45 @@
+
+
+
+    <!--Start about area-->
+    <section class="feature-area section-gap" id="service">
+        <div class="container" style="text-align:center ;">
+        
+                <div class="title text-center">
+                     <h1 class="mb-10">Marks</h1> 
+                  
+                </div>
+                      
+                    <form method="post">
+                        {% csrf_token %}
+                       <label>Subject1</label>
+                       <input type="text" name="subject1"><br>
+                       <label>Subject2</label>
+                       <input type="text" name="subject2"><br>
+                       <label>Subject3</label>
+                       <input type="text" name="subject3"><br>
+                       <label>Subject4</label>
+                       <input type="text" name="subject4"><br>
+                       <label>Subject5</label>
+                       <input type="text" name="subject5"><br>
+                       
+                       <button type="submit">Marks</button><br>
+                       <label>Total</label>
+                       <input type="text" value="{{total}}"><br>
+                       <label>Percentage</label>
+                       <input type="text" value="{{per}}"><br>
+                       <label>Division</label>
+                       <input type="text" value="{{div}}"><br>
+
+                    </form>
+                    
+                
+                
+                    
+        </div> 
+      
+    </section>
+
+
+<!--End area-->
+                 
